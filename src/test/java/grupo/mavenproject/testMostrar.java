@@ -13,7 +13,9 @@ public class testMostrar extends TestCase {
 	}
 
 	public void testMostrar() {
-		fail("Not yet implemented");
+		App app1 = new App();
+		app1.mostrar();
+		//debería haber algún tipo de comprobación
 	}
 
 }
